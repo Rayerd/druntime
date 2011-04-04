@@ -12,8 +12,8 @@ UDFLAGS=-O -release -nofloat -w -d -Isrc -Iimport
 CFLAGS=
 
 DRUNTIME_BASE=druntime
-DRUNTIME=lib\$(DRUNTIME_BASE).lib
-GCSTUB=lib\gcstub.obj
+DRUNTIME=c:\d\dmd2\windows\lib\$(DRUNTIME_BASE).lib
+GCSTUB=c:\d\dmd2\windows\lib\gcstub.obj
 
 DOCFMT=
 
